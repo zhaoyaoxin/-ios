@@ -1,0 +1,9 @@
+<svg width="90" height="15" viewBox="0 0 90 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="login-welcome-accent" x1="0" y1="7.5" x2="90" y2="7.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF9439"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="90" height="15" rx="7.5" fill="url(#login-welcome-accent)"/>
+</svg>

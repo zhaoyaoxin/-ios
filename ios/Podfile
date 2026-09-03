@@ -23,6 +23,9 @@ target 'LottieLite' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
+  # 加速模块 (Tunnel/K1) 依赖 FBKVOController
+  pod 'KVOController', '~> 1.2.0'
+
   post_install do |installer|
     react_native_post_install(
       installer,
@@ -31,4 +34,9 @@ target 'LottieLite' do
       # :ccache_enabled => true
     )
   end
+end
+
+# NetworkExtension 隧道扩展：编译同一份 Tunnel/K1 代码，同样需要 KVOController
+target 'GnwjNetTunnel' do
+  pod 'KVOController', '~> 1.2.0'
 end

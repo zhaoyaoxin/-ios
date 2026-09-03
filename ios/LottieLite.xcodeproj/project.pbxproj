@@ -7,23 +7,185 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0187227255D9FF7801E5713C /* rules.c in Sources */ = {isa = PBXBuildFile; fileRef = 235E9C2F1025D6A2E14D4F68 /* rules.c */; };
+		046F503E8912B78D48F01F9F /* k1Protocol.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CF20A887AC0C71AE280C3E /* k1Protocol.m */; };
+		071F278D656F1AAB6980AC68 /* k1SocketFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CB82E199CF103C1CBE0A1B0D /* k1SocketFactory.m */; };
+		0B77311A92DAADF1BBC280B8 /* ipsession.c in Sources */ = {isa = PBXBuildFile; fileRef = B8A55DC298C7DFBC8684A081 /* ipsession.c */; };
 		0C80B921A6F3F58F76C31292 /* libPods-LottieLite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-LottieLite.a */; };
+		109DF0E718698890DEC5994E /* k1Protocol.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CF20A887AC0C71AE280C3E /* k1Protocol.m */; };
+		11EAD79EB720AE83957843F6 /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A884E18169D13071FA0B4AB /* utils.c */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		17ABC31457F02008A4E24C7B /* PacketTunnelProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1F1CD2AB35B396D8BDEF1F /* PacketTunnelProvider.m */; };
+		1A97A2330AB001597EE7F624 /* DownloadSpeedTester.m in Sources */ = {isa = PBXBuildFile; fileRef = 9809BDA35711C9E0996FF66C /* DownloadSpeedTester.m */; };
+		2CC8A3EFA394EE172BD9E91B /* k1Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = BD37ED7B5672FC95BB5BA639 /* k1Utils.m */; };
+		30A5B5B405B5D06AD0EA399B /* k1UDPSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 922A14CD190EA3E212A4AA78 /* k1UDPSocket.m */; };
+		341CECAF71A5905B53D8565E /* PacketTunnelProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1F1CD2AB35B396D8BDEF1F /* PacketTunnelProvider.m */; };
+		371779CF091604A33AFF8704 /* k1UDPSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 922A14CD190EA3E212A4AA78 /* k1UDPSocket.m */; };
+		3CFDE0716C0694ECF92EE46D /* K1DNSServer.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA85688AA87CB7209B3E1DA /* K1DNSServer.m */; };
+		438763CE08D31B30E93FA224 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B908A56D979E373D660AA20C /* WebKit.framework */; };
+		4966DF0FF3FFA6DB169493AF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 852233DCABDD089AEC894804 /* SystemConfiguration.framework */; };
+		4B1451AD62C5DB2A444DB7FC /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A884E18169D13071FA0B4AB /* utils.c */; };
+		4C3D64C5037244296B815C09 /* K1API.mm in Sources */ = {isa = PBXBuildFile; fileRef = DE1CE6DEB968E48CE305F031 /* K1API.mm */; };
+		509A632E17C54CE6977DCEDC /* dns.c in Sources */ = {isa = PBXBuildFile; fileRef = D8AF1AB98ABAEB2F242FA27D /* dns.c */; };
+		529E942F8D31BD4EEDB0794B /* GnwjNetTunnel.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D1E349C5DCB4F2F23FDCDEFE /* GnwjNetTunnel.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		55EC70333AB38A21311A1478 /* gateway.c in Sources */ = {isa = PBXBuildFile; fileRef = 18A09935C1332081491F317D /* gateway.c */; };
+		56739F474908670145DC4ED3 /* GnwjLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3F4D7DFC2CFDC1A31F9CB0 /* GnwjLogger.m */; };
+		6537E96FF8C8C9EA973E2AEA /* LogSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D6C465D7C8E92AE8774EBF /* LogSetting.m */; };
+		6577A237CF8B8EB2A8970985 /* LogSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D6C465D7C8E92AE8774EBF /* LogSetting.m */; };
+		6D55F8AA5232F6EA5F99AB94 /* ipbase.c in Sources */ = {isa = PBXBuildFile; fileRef = 84D637AFEAE26F6900A2944D /* ipbase.c */; };
+		6E379077A007A06920B5DB02 /* K1FlowGroupManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A12931EB71142AE9F58FCF /* K1FlowGroupManager.m */; };
+		71CDDBB01CD2925EBBE6FDC0 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 569D84DEFEB23B59B12B6B30 /* NetworkExtension.framework */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		78D72C5ADEAB44EF56F5207B /* dns.c in Sources */ = {isa = PBXBuildFile; fileRef = D8AF1AB98ABAEB2F242FA27D /* dns.c */; };
+		7BF1CBA44E8C8E02AB60C2F1 /* k1QueueFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 654C6846F3A5524BDD3E00F8 /* k1QueueFactory.m */; };
+		80D97DFBC209F1A8685961CE /* k1PacketRuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB854000A226EBDE0D00B7B4 /* k1PacketRuleManager.m */; };
+		818399756EE2A60ACA1C044D /* iprange_list.c in Sources */ = {isa = PBXBuildFile; fileRef = AA376A4372D59C518420BF4D /* iprange_list.c */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		86CB74B654DDB1FDE46134C2 /* VPNConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEF15544CD3284D407059A3 /* VPNConfig.m */; };
+		8C0E90F1ACCD87F1606A34A8 /* iprange_list.c in Sources */ = {isa = PBXBuildFile; fileRef = AA376A4372D59C518420BF4D /* iprange_list.c */; };
+		8D5E4414DCE5038CF2AFD400 /* ippacket.c in Sources */ = {isa = PBXBuildFile; fileRef = 10256DB53EDB8E5DA9332272 /* ippacket.c */; };
+		8DBB1B2073F5375A0AB3759B /* ipstackdetect.c in Sources */ = {isa = PBXBuildFile; fileRef = FCCF5109BD3EF877F1D632DE /* ipstackdetect.c */; };
+		8F06F88DA289AFBC9D19AF4B /* N2IPPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = B52C63FA8635BBCD88FC3EFC /* N2IPPacket.m */; };
+		8F0E08440501966C9A6F0FAB /* K1FlowGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4CFBF4B9C2D5E01F0E319D /* K1FlowGroup.m */; };
+		924B3C7AEFDA6AC994DD3180 /* GnwjBridgeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B83CCA70D58EFCC0BC4D86AD /* GnwjBridgeHandler.m */; };
+		95F799A1EAC3206DC4C47817 /* N2IPPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = B52C63FA8635BBCD88FC3EFC /* N2IPPacket.m */; };
+		97A773E7746BB3D3877E2D27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEFFBC73AC3E5331CD5EBD2A /* Foundation.framework */; };
+		9A4FE8FFD3F5C44CE0A53A07 /* k1QueueFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 654C6846F3A5524BDD3E00F8 /* k1QueueFactory.m */; };
+		B335BDA0BBAC2E9A223A4C18 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378F771B0171A026A7D9A6CD /* SystemConfiguration.framework */; };
+		B5DAD717F5BC82A7944857A1 /* VPNController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F2FE0E191D89EF78722942E7 /* VPNController.mm */; };
+		B63AF26810D80E2A8ACEFC05 /* chinaiplist.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8B1360839546BBC077521075 /* chinaiplist.txt */; };
+		B678DF233C44554D96CEF863 /* libPods-GnwjNetTunnel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 584DD171139B1C68D00AEE38 /* libPods-GnwjNetTunnel.a */; };
+		BB21CD10B8B3E0B3D22EE867 /* gateway.c in Sources */ = {isa = PBXBuildFile; fileRef = 18A09935C1332081491F317D /* gateway.c */; };
+		BB25CE6CB2AE943BC424FE67 /* VPNControllerBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = 895FD58DA66B61F3AE823FDF /* VPNControllerBridge.mm */; };
+		BED1E77B91447B377F5B0289 /* k1PacketRuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB854000A226EBDE0D00B7B4 /* k1PacketRuleManager.m */; };
+		C18C4A3DCE9D83D001B8CF7A /* ipbase.c in Sources */ = {isa = PBXBuildFile; fileRef = 84D637AFEAE26F6900A2944D /* ipbase.c */; };
+		C2C3048D212D3CFADB6D460B /* k1SocketFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CB82E199CF103C1CBE0A1B0D /* k1SocketFactory.m */; };
+		C33B7252D88DB76F7CFA0618 /* ipstackdetect.c in Sources */ = {isa = PBXBuildFile; fileRef = FCCF5109BD3EF877F1D632DE /* ipstackdetect.c */; };
+		C8DD157F983B73513B34E0C5 /* GnwjLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3F4D7DFC2CFDC1A31F9CB0 /* GnwjLogger.m */; };
+		C94E0AE6D66B8CEFC36466A4 /* rules.c in Sources */ = {isa = PBXBuildFile; fileRef = 235E9C2F1025D6A2E14D4F68 /* rules.c */; };
+		D0ED5ECFF1D9042BEA300986 /* K1FlowGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4CFBF4B9C2D5E01F0E319D /* K1FlowGroup.m */; };
+		D71696993CC34EC6F9C8F63D /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		DB41591BEA6FA3D3D9D5E1B7 /* ippacket.c in Sources */ = {isa = PBXBuildFile; fileRef = 10256DB53EDB8E5DA9332272 /* ippacket.c */; };
+		DE5A18DC7E619F7AE36984C9 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA75D8117283407DA979A457 /* NetworkExtension.framework */; };
+		E284202854A6355084C7F014 /* K1API.mm in Sources */ = {isa = PBXBuildFile; fileRef = DE1CE6DEB968E48CE305F031 /* K1API.mm */; };
+		E3894EDC017301D784FD3899 /* k1PacketRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFB18C8CFC4F84B987CF381 /* k1PacketRouter.m */; };
+		E6DA1C79F0C0F9C055581377 /* K1FlowGroupManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A12931EB71142AE9F58FCF /* K1FlowGroupManager.m */; };
+		EDC2B1C27A014E70233969EE /* ipsession.c in Sources */ = {isa = PBXBuildFile; fileRef = B8A55DC298C7DFBC8684A081 /* ipsession.c */; };
+		F902A31DA40E1AB5EA8C9C75 /* K1DNSServer.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA85688AA87CB7209B3E1DA /* K1DNSServer.m */; };
+		FB2FF7E57D79292509944509 /* k1Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = BD37ED7B5672FC95BB5BA639 /* k1Utils.m */; };
+		FFD3D9747683135855193403 /* k1PacketRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFB18C8CFC4F84B987CF381 /* k1PacketRouter.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		163C71E27997AFD160FC0428 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF9965965FA612512F9CDF87;
+			remoteInfo = GnwjNetTunnel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4AA527A138FF6129F4B36DF4 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				529E942F8D31BD4EEDB0794B /* GnwjNetTunnel.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0A37C8B06216F6A3F86EB367 /* ipsession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ipsession.h; sourceTree = "<group>"; };
+		10256DB53EDB8E5DA9332272 /* ippacket.c */ = {isa = PBXFileReference; includeInIndex = 1; path = ippacket.c; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* LottieLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottieLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = LottieLite/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = LottieLite/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = LottieLite/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		18A09935C1332081491F317D /* gateway.c */ = {isa = PBXFileReference; includeInIndex = 1; path = gateway.c; sourceTree = "<group>"; };
+		1A1F1CD2AB35B396D8BDEF1F /* PacketTunnelProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PacketTunnelProvider.m; sourceTree = "<group>"; };
+		1EA42FA78D114E652725359A /* Headers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Headers.h; sourceTree = "<group>"; };
+		235E9C2F1025D6A2E14D4F68 /* rules.c */ = {isa = PBXFileReference; includeInIndex = 1; path = rules.c; sourceTree = "<group>"; };
+		25B881D7930A30988A6E7672 /* iprange_list.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = iprange_list.h; sourceTree = "<group>"; };
+		27F850730F6C4228DF623282 /* k1PacketRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = k1PacketRouter.h; sourceTree = "<group>"; };
+		2CA1632CB1BFAEAFDDB8F4D2 /* k1PacketRuleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = k1PacketRuleManager.h; sourceTree = "<group>"; };
+		2E68963A6CAC2DD452D63C8C /* rules.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = rules.h; sourceTree = "<group>"; };
+		2EC589CDB6566946F4686479 /* K1DNSServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = K1DNSServer.h; sourceTree = "<group>"; };
+		378F771B0171A026A7D9A6CD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3AFF2267E1910E72DF992D56 /* ipbase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ipbase.h; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-LottieLite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieLite.debug.xcconfig"; path = "Target Support Files/Pods-LottieLite/Pods-LottieLite.debug.xcconfig"; sourceTree = "<group>"; };
+		41BC58CF52E7A3B1EFE3D259 /* GnwjBridgeHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GnwjBridgeHandler.h; path = ../VPN/Controller/GnwjBridgeHandler.h; sourceTree = "<group>"; };
+		43AD7A9FECB90CF94DD0F1F8 /* k1UDPSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = k1UDPSocket.h; sourceTree = "<group>"; };
+		46F3890A9BDBF317CC989C43 /* gateway.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = gateway.h; sourceTree = "<group>"; };
+		49C3B2E8BE17243BC7EF076A /* k1Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = k1Utils.h; sourceTree = "<group>"; };
+		4A884E18169D13071FA0B4AB /* utils.c */ = {isa = PBXFileReference; includeInIndex = 1; path = utils.c; sourceTree = "<group>"; };
+		569D84DEFEB23B59B12B6B30 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 		5709B34CF0A7D63546082F79 /* Pods-LottieLite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieLite.release.xcconfig"; path = "Target Support Files/Pods-LottieLite/Pods-LottieLite.release.xcconfig"; sourceTree = "<group>"; };
+		584DD171139B1C68D00AEE38 /* libPods-GnwjNetTunnel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GnwjNetTunnel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4449B4C633114C602D1FD1 /* ippacket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ippacket.h; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-LottieLite.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LottieLite.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		654C6846F3A5524BDD3E00F8 /* k1QueueFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = k1QueueFactory.m; sourceTree = "<group>"; };
+		67011FB50DDD46AAA475FC00 /* K1FlowGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = K1FlowGroup.h; sourceTree = "<group>"; };
+		6AFB18C8CFC4F84B987CF381 /* k1PacketRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = k1PacketRouter.m; sourceTree = "<group>"; };
+		6E3F4D7DFC2CFDC1A31F9CB0 /* GnwjLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GnwjLogger.m; sourceTree = "<group>"; };
+		710FA8A191056D72F646DCA2 /* route.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = LottieLite/AppDelegate.swift; sourceTree = "<group>"; };
+		78FA5DBBE271423CA3BBB2A7 /* N2IPPacket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = N2IPPacket.h; sourceTree = "<group>"; };
+		8123EB3AC5727F18D33C0768 /* Pods-GnwjNetTunnel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GnwjNetTunnel.release.xcconfig"; path = "Target Support Files/Pods-GnwjNetTunnel/Pods-GnwjNetTunnel.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = LottieLite/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84225EDED9BAF67198EBC176 /* dns.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dns.h; sourceTree = "<group>"; };
+		84D637AFEAE26F6900A2944D /* ipbase.c */ = {isa = PBXFileReference; includeInIndex = 1; path = ipbase.c; sourceTree = "<group>"; };
+		852233DCABDD089AEC894804 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		895FD58DA66B61F3AE823FDF /* VPNControllerBridge.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = VPNControllerBridge.mm; path = ../VPN/Controller/VPNControllerBridge.mm; sourceTree = "<group>"; };
+		8B1360839546BBC077521075 /* chinaiplist.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = chinaiplist.txt; sourceTree = "<group>"; };
+		8C0E3C401D30412F0F23E463 /* ipstackdetect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ipstackdetect.h; sourceTree = "<group>"; };
+		91E5C6187DE1BF14669E3642 /* VPNController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VPNController.h; path = ../VPN/Controller/VPNController.h; sourceTree = "<group>"; };
+		922A14CD190EA3E212A4AA78 /* k1UDPSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = k1UDPSocket.m; sourceTree = "<group>"; };
+		92E597AE535D034E74041433 /* ruleheader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ruleheader.h; sourceTree = "<group>"; };
+		9392C3F7074C8DA2A6E38DE1 /* k1Protocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = k1Protocol.h; sourceTree = "<group>"; };
+		94ABC9A44A3259E2EBAF17BD /* Pods-GnwjNetTunnel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GnwjNetTunnel.debug.xcconfig"; path = "Target Support Files/Pods-GnwjNetTunnel/Pods-GnwjNetTunnel.debug.xcconfig"; sourceTree = "<group>"; };
+		96B1F1025E195EE4014F0C74 /* K1API.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = K1API.h; sourceTree = "<group>"; };
+		9809BDA35711C9E0996FF66C /* DownloadSpeedTester.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DownloadSpeedTester.m; path = ../VPN/Controller/DownloadSpeedTester.m; sourceTree = "<group>"; };
+		98D6C465D7C8E92AE8774EBF /* LogSetting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LogSetting.m; sourceTree = "<group>"; };
+		A38E85E3CB6CF4EEFA449E3C /* K1Kit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = K1Kit.h; sourceTree = "<group>"; };
+		A41DB58DA7582B91D7C9D585 /* DownloadSpeedTester.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DownloadSpeedTester.h; path = ../VPN/Controller/DownloadSpeedTester.h; sourceTree = "<group>"; };
+		A49A53213FA53B372FDF8A84 /* K1FlowGroupManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = K1FlowGroupManager.h; sourceTree = "<group>"; };
+		A96CF3DFDE42E11705B680B3 /* GnwjLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GnwjLogger.h; sourceTree = "<group>"; };
+		AA376A4372D59C518420BF4D /* iprange_list.c */ = {isa = PBXFileReference; includeInIndex = 1; path = iprange_list.c; sourceTree = "<group>"; };
+		AE6575B71E2AC515FBF6729D /* queue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
+		AEA85688AA87CB7209B3E1DA /* K1DNSServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = K1DNSServer.m; sourceTree = "<group>"; };
+		B0FB09F710292CEC9BCDE83C /* k1SocketFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = k1SocketFactory.h; sourceTree = "<group>"; };
+		B52C63FA8635BBCD88FC3EFC /* N2IPPacket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = N2IPPacket.m; sourceTree = "<group>"; };
+		B83CCA70D58EFCC0BC4D86AD /* GnwjBridgeHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GnwjBridgeHandler.m; path = ../VPN/Controller/GnwjBridgeHandler.m; sourceTree = "<group>"; };
+		B8A55DC298C7DFBC8684A081 /* ipsession.c */ = {isa = PBXFileReference; includeInIndex = 1; path = ipsession.c; sourceTree = "<group>"; };
+		B908A56D979E373D660AA20C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		BA75D8117283407DA979A457 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		BD37ED7B5672FC95BB5BA639 /* k1Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = k1Utils.m; sourceTree = "<group>"; };
+		BFC5F63DEDFBC4BD4AFAC743 /* utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		C3CF20A887AC0C71AE280C3E /* k1Protocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = k1Protocol.m; sourceTree = "<group>"; };
+		C8A12931EB71142AE9F58FCF /* K1FlowGroupManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = K1FlowGroupManager.m; sourceTree = "<group>"; };
+		CB82E199CF103C1CBE0A1B0D /* k1SocketFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = k1SocketFactory.m; sourceTree = "<group>"; };
+		CB854000A226EBDE0D00B7B4 /* k1PacketRuleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = k1PacketRuleManager.m; sourceTree = "<group>"; };
+		CBBA90202887CD7E6FB6D32B /* VPNControllerBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VPNControllerBridge.h; path = ../VPN/Controller/VPNControllerBridge.h; sourceTree = "<group>"; };
+		CF4CFBF4B9C2D5E01F0E319D /* K1FlowGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = K1FlowGroup.m; sourceTree = "<group>"; };
+		D1E349C5DCB4F2F23FDCDEFE /* GnwjNetTunnel.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GnwjNetTunnel.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8AF1AB98ABAEB2F242FA27D /* dns.c */ = {isa = PBXFileReference; includeInIndex = 1; path = dns.c; sourceTree = "<group>"; };
+		DA0869259CB9F5527C86BF43 /* LogSetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LogSetting.h; sourceTree = "<group>"; };
+		DE1CE6DEB968E48CE305F031 /* K1API.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = K1API.mm; sourceTree = "<group>"; };
+		E1197F0A7003FCEDEA177BF2 /* VPNConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VPNConfig.h; path = ../VPN/Model/VPNConfig.h; sourceTree = "<group>"; };
+		EB4D4A0B4E6678F42EA82838 /* RuleKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RuleKit.h; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EDEF15544CD3284D407059A3 /* VPNConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VPNConfig.m; path = ../VPN/Model/VPNConfig.m; sourceTree = "<group>"; };
+		EE7CDE89B775C42CAF3BED16 /* PacketTunnelProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PacketTunnelProvider.h; sourceTree = "<group>"; };
+		EEFFBC73AC3E5331CD5EBD2A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F2FE0E191D89EF78722942E7 /* VPNController.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = VPNController.mm; path = ../VPN/Controller/VPNController.mm; sourceTree = "<group>"; };
+		FCCF5109BD3EF877F1D632DE /* ipstackdetect.c */ = {isa = PBXFileReference; includeInIndex = 1; path = ipstackdetect.c; sourceTree = "<group>"; };
+		FE1D3798B4BC69B0B1D30FA9 /* k1QueueFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = k1QueueFactory.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +194,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C80B921A6F3F58F76C31292 /* libPods-LottieLite.a in Frameworks */,
+				71CDDBB01CD2925EBBE6FDC0 /* NetworkExtension.framework in Frameworks */,
+				4966DF0FF3FFA6DB169493AF /* SystemConfiguration.framework in Frameworks */,
+				438763CE08D31B30E93FA224 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9442822CA73CE06368DF9709 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97A773E7746BB3D3877E2D27 /* Foundation.framework in Frameworks */,
+				DE5A18DC7E619F7AE36984C9 /* NetworkExtension.framework in Frameworks */,
+				B335BDA0BBAC2E9A223A4C18 /* SystemConfiguration.framework in Frameworks */,
+				B678DF233C44554D96CEF863 /* libPods-GnwjNetTunnel.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,14 +226,115 @@
 			name = LottieLite;
 			sourceTree = "<group>";
 		};
+		166B1852062B5DA809330331 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A41DB58DA7582B91D7C9D585 /* DownloadSpeedTester.h */,
+				9809BDA35711C9E0996FF66C /* DownloadSpeedTester.m */,
+				41BC58CF52E7A3B1EFE3D259 /* GnwjBridgeHandler.h */,
+				B83CCA70D58EFCC0BC4D86AD /* GnwjBridgeHandler.m */,
+				91E5C6187DE1BF14669E3642 /* VPNController.h */,
+				F2FE0E191D89EF78722942E7 /* VPNController.mm */,
+				CBBA90202887CD7E6FB6D32B /* VPNControllerBridge.h */,
+				895FD58DA66B61F3AE823FDF /* VPNControllerBridge.mm */,
+			);
+			name = Controller;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2C4260AB84BDE5F5E103E277 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				CAD4055FB679FE369442BEE4 /* VPN */,
+			);
+			name = Features;
+			path = Features;
+			sourceTree = SOURCE_ROOT;
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				5DCACB8F33CDC322A6C60F78 /* libPods-LottieLite.a */,
+				D42C796FD1E5A6E1BD616004 /* iOS */,
+				569D84DEFEB23B59B12B6B30 /* NetworkExtension.framework */,
+				852233DCABDD089AEC894804 /* SystemConfiguration.framework */,
+				B908A56D979E373D660AA20C /* WebKit.framework */,
+				BA75D8117283407DA979A457 /* NetworkExtension.framework */,
+				378F771B0171A026A7D9A6CD /* SystemConfiguration.framework */,
+				584DD171139B1C68D00AEE38 /* libPods-GnwjNetTunnel.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
+		};
+		41015855FDECEC058A59AB09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E1197F0A7003FCEDEA177BF2 /* VPNConfig.h */,
+				EDEF15544CD3284D407059A3 /* VPNConfig.m */,
+			);
+			name = Model;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		46A7329E60798A404195E5F8 /* Tunnel */ = {
+			isa = PBXGroup;
+			children = (
+				52C0C58FDDDD65581737DB33 /* K1 */,
+				A38E85E3CB6CF4EEFA449E3C /* K1Kit.h */,
+				EE7CDE89B775C42CAF3BED16 /* PacketTunnelProvider.h */,
+				1A1F1CD2AB35B396D8BDEF1F /* PacketTunnelProvider.m */,
+				CDEE6FEBEA039447DB531122 /* Rule */,
+				EB4D4A0B4E6678F42EA82838 /* RuleKit.h */,
+			);
+			name = Tunnel;
+			path = Tunnel;
+			sourceTree = SOURCE_ROOT;
+		};
+		52C0C58FDDDD65581737DB33 /* K1 */ = {
+			isa = PBXGroup;
+			children = (
+				2EC589CDB6566946F4686479 /* K1DNSServer.h */,
+				AEA85688AA87CB7209B3E1DA /* K1DNSServer.m */,
+				67011FB50DDD46AAA475FC00 /* K1FlowGroup.h */,
+				CF4CFBF4B9C2D5E01F0E319D /* K1FlowGroup.m */,
+				A49A53213FA53B372FDF8A84 /* K1FlowGroupManager.h */,
+				C8A12931EB71142AE9F58FCF /* K1FlowGroupManager.m */,
+				78FA5DBBE271423CA3BBB2A7 /* N2IPPacket.h */,
+				B52C63FA8635BBCD88FC3EFC /* N2IPPacket.m */,
+				27F850730F6C4228DF623282 /* k1PacketRouter.h */,
+				6AFB18C8CFC4F84B987CF381 /* k1PacketRouter.m */,
+				2CA1632CB1BFAEAFDDB8F4D2 /* k1PacketRuleManager.h */,
+				CB854000A226EBDE0D00B7B4 /* k1PacketRuleManager.m */,
+				9392C3F7074C8DA2A6E38DE1 /* k1Protocol.h */,
+				C3CF20A887AC0C71AE280C3E /* k1Protocol.m */,
+				FE1D3798B4BC69B0B1D30FA9 /* k1QueueFactory.h */,
+				654C6846F3A5524BDD3E00F8 /* k1QueueFactory.m */,
+				B0FB09F710292CEC9BCDE83C /* k1SocketFactory.h */,
+				CB82E199CF103C1CBE0A1B0D /* k1SocketFactory.m */,
+				43AD7A9FECB90CF94DD0F1F8 /* k1UDPSocket.h */,
+				922A14CD190EA3E212A4AA78 /* k1UDPSocket.m */,
+				49C3B2E8BE17243BC7EF076A /* k1Utils.h */,
+				BD37ED7B5672FC95BB5BA639 /* k1Utils.m */,
+			);
+			name = K1;
+			path = K1;
+			sourceTree = "<group>";
+		};
+		6E3055D5C530E61D1581FB04 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A96CF3DFDE42E11705B680B3 /* GnwjLogger.h */,
+				6E3F4D7DFC2CFDC1A31F9CB0 /* GnwjLogger.m */,
+				1EA42FA78D114E652725359A /* Headers.h */,
+				96B1F1025E195EE4014F0C74 /* K1API.h */,
+				DE1CE6DEB968E48CE305F031 /* K1API.mm */,
+				DA0869259CB9F5527C86BF43 /* LogSetting.h */,
+				98D6C465D7C8E92AE8774EBF /* LogSetting.m */,
+			);
+			name = Shared;
+			path = Shared;
+			sourceTree = SOURCE_ROOT;
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
@@ -74,6 +351,10 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				6E3055D5C530E61D1581FB04 /* Shared */,
+				46A7329E60798A404195E5F8 /* Tunnel */,
+				2C4260AB84BDE5F5E103E277 /* Features */,
+				8E2326632927C0CB00824B7A /* chinaip */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -84,17 +365,75 @@
 			isa = PBXGroup;
 			children = (
 				13B07F961A680F5B00A75B9A /* LottieLite.app */,
+				D1E349C5DCB4F2F23FDCDEFE /* GnwjNetTunnel.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		8E2326632927C0CB00824B7A /* chinaip */ = {
+			isa = PBXGroup;
+			children = (
+				8B1360839546BBC077521075 /* chinaiplist.txt */,
+			);
+			name = chinaip;
+			path = chinaip;
+			sourceTree = SOURCE_ROOT;
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				3B4392A12AC88292D35C810B /* Pods-LottieLite.debug.xcconfig */,
 				5709B34CF0A7D63546082F79 /* Pods-LottieLite.release.xcconfig */,
+				8123EB3AC5727F18D33C0768 /* Pods-GnwjNetTunnel.release.xcconfig */,
+				94ABC9A44A3259E2EBAF17BD /* Pods-GnwjNetTunnel.debug.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		CAD4055FB679FE369442BEE4 /* VPN */ = {
+			isa = PBXGroup;
+			children = (
+				166B1852062B5DA809330331 /* Controller */,
+				41015855FDECEC058A59AB09 /* Model */,
+			);
+			name = VPN;
+			sourceTree = "<group>";
+		};
+		CDEE6FEBEA039447DB531122 /* Rule */ = {
+			isa = PBXGroup;
+			children = (
+				D8AF1AB98ABAEB2F242FA27D /* dns.c */,
+				84225EDED9BAF67198EBC176 /* dns.h */,
+				18A09935C1332081491F317D /* gateway.c */,
+				46F3890A9BDBF317CC989C43 /* gateway.h */,
+				84D637AFEAE26F6900A2944D /* ipbase.c */,
+				3AFF2267E1910E72DF992D56 /* ipbase.h */,
+				10256DB53EDB8E5DA9332272 /* ippacket.c */,
+				5A4449B4C633114C602D1FD1 /* ippacket.h */,
+				AA376A4372D59C518420BF4D /* iprange_list.c */,
+				25B881D7930A30988A6E7672 /* iprange_list.h */,
+				B8A55DC298C7DFBC8684A081 /* ipsession.c */,
+				0A37C8B06216F6A3F86EB367 /* ipsession.h */,
+				FCCF5109BD3EF877F1D632DE /* ipstackdetect.c */,
+				8C0E3C401D30412F0F23E463 /* ipstackdetect.h */,
+				AE6575B71E2AC515FBF6729D /* queue.h */,
+				710FA8A191056D72F646DCA2 /* route.h */,
+				92E597AE535D034E74041433 /* ruleheader.h */,
+				235E9C2F1025D6A2E14D4F68 /* rules.c */,
+				2E68963A6CAC2DD452D63C8C /* rules.h */,
+				4A884E18169D13071FA0B4AB /* utils.c */,
+				BFC5F63DEDFBC4BD4AFAC743 /* utils.h */,
+			);
+			name = Rule;
+			path = Rule;
+			sourceTree = "<group>";
+		};
+		D42C796FD1E5A6E1BD616004 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EEFFBC73AC3E5331CD5EBD2A /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,15 +450,35 @@
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
 				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				4AA527A138FF6129F4B36DF4 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8CBE782543B63679770C4181 /* PBXTargetDependency */,
 			);
 			name = LottieLite;
 			productName = LottieLite;
 			productReference = 13B07F961A680F5B00A75B9A /* LottieLite.app */;
 			productType = "com.apple.product-type.application";
+		};
+		DF9965965FA612512F9CDF87 /* GnwjNetTunnel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACB05DF95DDAFE6725B04ACC /* Build configuration list for PBXNativeTarget "GnwjNetTunnel" */;
+			buildPhases = (
+				850A681ACE83A5E93336AA3B /* [CP] Check Pods Manifest.lock */,
+				A0510681FFE63DB080C11298 /* Sources */,
+				9442822CA73CE06368DF9709 /* Frameworks */,
+				9ECBFD21E42F965725AC1B8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GnwjNetTunnel;
+			productName = GnwjNetTunnel;
+			productReference = D1E349C5DCB4F2F23FDCDEFE /* GnwjNetTunnel.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -148,6 +507,7 @@
 			projectRoot = "";
 			targets = (
 				13B07F861A680F5B00A75B9A /* LottieLite */,
+				DF9965965FA612512F9CDF87 /* GnwjNetTunnel */,
 			);
 		};
 /* End PBXProject section */
@@ -159,6 +519,15 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				D71696993CC34EC6F9C8F63D /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECBFD21E42F965725AC1B8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63AF26810D80E2A8ACEFC05 /* chinaiplist.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +565,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LottieLite/Pods-LottieLite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		850A681ACE83A5E93336AA3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GnwjNetTunnel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
@@ -245,10 +636,79 @@
 			buildActionMask = 2147483647;
 			files = (
 				761780ED2CA45674006654EE /* AppDelegate.swift in Sources */,
+				56739F474908670145DC4ED3 /* GnwjLogger.m in Sources */,
+				E284202854A6355084C7F014 /* K1API.mm in Sources */,
+				6577A237CF8B8EB2A8970985 /* LogSetting.m in Sources */,
+				3CFDE0716C0694ECF92EE46D /* K1DNSServer.m in Sources */,
+				8F0E08440501966C9A6F0FAB /* K1FlowGroup.m in Sources */,
+				E6DA1C79F0C0F9C055581377 /* K1FlowGroupManager.m in Sources */,
+				95F799A1EAC3206DC4C47817 /* N2IPPacket.m in Sources */,
+				FFD3D9747683135855193403 /* k1PacketRouter.m in Sources */,
+				80D97DFBC209F1A8685961CE /* k1PacketRuleManager.m in Sources */,
+				109DF0E718698890DEC5994E /* k1Protocol.m in Sources */,
+				7BF1CBA44E8C8E02AB60C2F1 /* k1QueueFactory.m in Sources */,
+				C2C3048D212D3CFADB6D460B /* k1SocketFactory.m in Sources */,
+				371779CF091604A33AFF8704 /* k1UDPSocket.m in Sources */,
+				FB2FF7E57D79292509944509 /* k1Utils.m in Sources */,
+				17ABC31457F02008A4E24C7B /* PacketTunnelProvider.m in Sources */,
+				78D72C5ADEAB44EF56F5207B /* dns.c in Sources */,
+				BB21CD10B8B3E0B3D22EE867 /* gateway.c in Sources */,
+				6D55F8AA5232F6EA5F99AB94 /* ipbase.c in Sources */,
+				DB41591BEA6FA3D3D9D5E1B7 /* ippacket.c in Sources */,
+				818399756EE2A60ACA1C044D /* iprange_list.c in Sources */,
+				EDC2B1C27A014E70233969EE /* ipsession.c in Sources */,
+				C33B7252D88DB76F7CFA0618 /* ipstackdetect.c in Sources */,
+				C94E0AE6D66B8CEFC36466A4 /* rules.c in Sources */,
+				4B1451AD62C5DB2A444DB7FC /* utils.c in Sources */,
+				1A97A2330AB001597EE7F624 /* DownloadSpeedTester.m in Sources */,
+				924B3C7AEFDA6AC994DD3180 /* GnwjBridgeHandler.m in Sources */,
+				B5DAD717F5BC82A7944857A1 /* VPNController.mm in Sources */,
+				BB25CE6CB2AE943BC424FE67 /* VPNControllerBridge.mm in Sources */,
+				86CB74B654DDB1FDE46134C2 /* VPNConfig.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0510681FFE63DB080C11298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8DD157F983B73513B34E0C5 /* GnwjLogger.m in Sources */,
+				4C3D64C5037244296B815C09 /* K1API.mm in Sources */,
+				6537E96FF8C8C9EA973E2AEA /* LogSetting.m in Sources */,
+				F902A31DA40E1AB5EA8C9C75 /* K1DNSServer.m in Sources */,
+				D0ED5ECFF1D9042BEA300986 /* K1FlowGroup.m in Sources */,
+				6E379077A007A06920B5DB02 /* K1FlowGroupManager.m in Sources */,
+				8F06F88DA289AFBC9D19AF4B /* N2IPPacket.m in Sources */,
+				E3894EDC017301D784FD3899 /* k1PacketRouter.m in Sources */,
+				BED1E77B91447B377F5B0289 /* k1PacketRuleManager.m in Sources */,
+				046F503E8912B78D48F01F9F /* k1Protocol.m in Sources */,
+				9A4FE8FFD3F5C44CE0A53A07 /* k1QueueFactory.m in Sources */,
+				071F278D656F1AAB6980AC68 /* k1SocketFactory.m in Sources */,
+				30A5B5B405B5D06AD0EA399B /* k1UDPSocket.m in Sources */,
+				2CC8A3EFA394EE172BD9E91B /* k1Utils.m in Sources */,
+				341CECAF71A5905B53D8565E /* PacketTunnelProvider.m in Sources */,
+				509A632E17C54CE6977DCEDC /* dns.c in Sources */,
+				55EC70333AB38A21311A1478 /* gateway.c in Sources */,
+				C18C4A3DCE9D83D001B8CF7A /* ipbase.c in Sources */,
+				8D5E4414DCE5038CF2AFD400 /* ippacket.c in Sources */,
+				8C0E90F1ACCD87F1606A34A8 /* iprange_list.c in Sources */,
+				0B77311A92DAADF1BBC280B8 /* ipsession.c in Sources */,
+				8DBB1B2073F5375A0AB3759B /* ipstackdetect.c in Sources */,
+				0187227255D9FF7801E5713C /* rules.c in Sources */,
+				11EAD79EB720AE83957843F6 /* utils.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CBE782543B63679770C4181 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GnwjNetTunnel;
+			target = DF9965965FA612512F9CDF87 /* GnwjNetTunnel */;
+			targetProxy = 163C71E27997AFD160FC0428 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
@@ -257,8 +717,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = LottieLite/LottieLite.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Shared\"",
+					"\"$(SRCROOT)/Tunnel/**\"",
+					"\"$(SRCROOT)/Features/**\"",
+				);
 				INFOPLIST_FILE = LottieLite/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -270,8 +737,9 @@
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
+					"-lresolv",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guangnianjissu.ios;
 				PRODUCT_NAME = LottieLite;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -287,7 +755,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = LottieLite/LottieLite.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Shared\"",
+					"\"$(SRCROOT)/Tunnel/**\"",
+					"\"$(SRCROOT)/Features/**\"",
+				);
 				INFOPLIST_FILE = LottieLite/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,8 +774,9 @@
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
+					"-lresolv",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guangnianjissu.ios;
 				PRODUCT_NAME = LottieLite;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SWIFT_VERSION = 5.0;
@@ -308,6 +784,37 @@
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
+		};
+		2CCE9E6BDAA4DD057A4056A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94ABC9A44A3259E2EBAF17BD /* Pods-GnwjNetTunnel.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = Tunnel/GnwjNetTunnel.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Shared\"",
+					"\"$(SRCROOT)/Tunnel/**\"",
+					"\"$(SRCROOT)/Features/**\"",
+				);
+				INFOPLIST_FILE = Tunnel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+					"-lresolv",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guangnianjissu.ios.GnwjNetTunnel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		83CBBA201A601CBA00E9B192 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -370,6 +877,10 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DRCT_REMOVE_LEGACY_ARCH=1",
+				);
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DFOLLY_NO_CONFIG",
@@ -377,8 +888,14 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+					"-DRCT_REMOVE_LEGACY_ARCH=1",
 				);
+				PODFILE_DIR = "$(SRCROOT)";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ENABLE_EXPLICIT_MODULES = NO;
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -435,6 +952,10 @@
 					"\"$(inherited)\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DRCT_REMOVE_LEGACY_ARCH=1",
+				);
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DFOLLY_NO_CONFIG",
@@ -442,8 +963,45 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+					"-DRCT_REMOVE_LEGACY_ARCH=1",
 				);
+				PODFILE_DIR = "$(SRCROOT)";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				SWIFT_ENABLE_EXPLICIT_MODULES = NO;
+				USE_HERMES = true;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C604CC956B5EFC2F55C7D380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8123EB3AC5727F18D33C0768 /* Pods-GnwjNetTunnel.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = Tunnel/GnwjNetTunnel.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Shared\"",
+					"\"$(SRCROOT)/Tunnel/**\"",
+					"\"$(SRCROOT)/Features/**\"",
+				);
+				INFOPLIST_FILE = Tunnel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+					"-lresolv",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guangnianjissu.ios.GnwjNetTunnel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -465,6 +1023,15 @@
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
 				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACB05DF95DDAFE6725B04ACC /* Build configuration list for PBXNativeTarget "GnwjNetTunnel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C604CC956B5EFC2F55C7D380 /* Release */,
+				2CCE9E6BDAA4DD057A4056A7 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

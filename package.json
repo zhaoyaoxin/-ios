@@ -4,16 +4,19 @@
   "private": true,
   "scripts": {
     "android": "react-native run-android",
-    "ios": "react-native run-ios",
+    "ios": "mkdir -p .metro-cache/tmp && TMPDIR=\"$PWD/.metro-cache/tmp\" react-native run-ios --simulator \"iPhone 17 Pro\"",
     "lint": "eslint .",
-    "start": "react-native start",
-    "test": "jest"
+    "start": "mkdir -p .metro-cache/tmp && TMPDIR=\"$PWD/.metro-cache/tmp\" react-native start",
+    "test": "jest",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "lottie-react-native": "7.3.8",
     "react": "19.2.3",
     "react-native": "0.86.2",
-    "@react-native/new-app-screen": "0.86.2",
-    "react-native-safe-area-context": "^5.5.2"
+    "react-native-safe-area-context": "^5.5.2",
+    "react-native-webview": "^14.0.1",
+    "zustand": "^5.0.14"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
